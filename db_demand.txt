@@ -1,0 +1,6 @@
+search
+index/main
+login/ 
+banner
+
+activity (calendar)

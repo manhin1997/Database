@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Tocas UI：CSS 與元件 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+    <!-- Tocas JS：模塊與 JavaScript 函式 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
+    <meta charset="UTF-8">
+    <title>System Login</title>
+    <style>
+        table.tb_Login {
+            position: relative;
+            width: 200px;
+        }
+
+        div.div_Login {
+            background-color: orange;
+
+        }
+    </style>
+</head>
+<body style="background-color: azure">
+
+<table class="tb_Login" border="0">
+    <tr>
+        <th>
+            <p style="width: 150px"> Account Login</p>
+        </th>
+        <th></th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <div class="ts input">
+                <form action="/action.js">
+                    Student ID: <input type="text" name="StudentID" value="StudentID"><br>
+                    Student Password: <input type="text" name="StudentPW" value="Password"><br>
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

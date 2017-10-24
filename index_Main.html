@@ -1,0 +1,48 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=big5">
+    <!-- Tocas UI：CSS 與元件 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+    <!-- Tocas JS：模塊與 JavaScript 函式 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<!--
+<frameset rows="129,*" cols="25%,*,25%" framespacing="0" frameborder="NO" border="0">
+    <frame src="login.html" name="mainFrame">
+    <frame src="search.html" name="rightFrame">
+</frameset>
+<noframes>
+</noframes>
+-->
+<body>
+
+<div class="ts inverted primary borderless menu">
+    <a class="item"></a><div class="ts inverted primary borderless menu">
+    <a class="item">Exploring the library</a>
+    <a class="item">Promotion</a>
+    <a class="item">Activities</a>
+    <a class="item">Location</a>
+    <a class="item">About the library</a>
+
+</div>
+
+</div>
+
+<div class="ts grid">
+
+    <div id="login" class="five wide column">login html</div>
+    <div id="info" class="six wide column">info html </div>
+    <div id="Search" class="five wide column" >search html</div>
+</div>
+
+<script>
+    $( "#login" ).load( "login.html" );
+    $("#info").load("info.html")
+    $("#Search").load("search.html")
+</script>
+</body>
+</html>
