@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Registration</title>
+    <!-- Tocas UI：CSS 與元件 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+    <!-- Tocas JS：模塊與 JavaScript 函式 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+<div class="ts very narrow container">
+    <div class="ts huge header">Register NOW!</div>
+    <div class="ts medium header">Enjoy more services after registration</div>
 
+
+    <form class="ts form">
+
+        <div class="field">
+            <label>uername</label>
+            <input type="text">
+        </div>
+
+        <div class="field">
+            <label>password</label>
+            <input type="text">
+        </div>
+
+        <div class="field">
+            <label>Surname</label>
+            <input type="text">
+        </div>
+
+        <div class="field">
+            <label>Name</label>
+            <input type="text">
+        </div>
+
+        <div class="field">
+            <label>Name</label>
+            <input type="text">
+        </div>
+
+
+        <div class="field">
+            <label>Age</label>
+            <!-- 下拉式選單群組 -->
+            <div class="ts relaxed fluid separated dropdowns">
+                <select>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+
+                </select>
+            </div>
+        </div>
+
+
+        <div class="field">
+            <div class="ts checkbox">
+                <input id="agree" type="checkbox">
+                <label for="agree">I understand the library's agreement</label>
+            </div>
+        </div>
+        <button class="ts button">submit</button>
+    </form>
+</div>
 </body>
 </html>
