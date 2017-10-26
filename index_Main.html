@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
 <head>
@@ -21,26 +20,30 @@
 <body>
 
 <div class="ts inverted primary borderless menu">
-    <a class="item"></a><div class="ts inverted primary borderless menu">
-    <a class="item">Exploring the library</a>
-    <a class="item">Promotion</a>
-    <a class="item">Activities</a>
-    <a class="item">Location</a>
-    <a class="item">About the library</a>
+    <a class="item"></a>
+    <div class="ts inverted primary borderless menu">
+        <a class="item">Exploring the library</a>
+        <a class="item">Promotion</a>
+        <a class="item">Activities</a>
+        <a class="item">Location</a>
+        <a class="item">About the library</a>
+        <a class="item" onclick="window.location.href='user_profile_main.html'">User profile</a>
+        <a class="item" onclick="window.location.href='message_main.html'">Message</a>
+        <a class="item" onclick="window.location.href='userManagement.html'">User Management</a>
 
-</div>
+    </div>
 
 </div>
 
 <div class="ts grid">
 
     <div id="login" class="five wide column">login html</div>
-    <div id="info" class="six wide column">info html </div>
-    <div id="Search" class="five wide column" >search html</div>
+    <div id="info" class="six wide column">info html</div>
+    <div id="Search" class="five wide column">search html</div>
 </div>
 
 <script>
-    $( "#login" ).load( "login.html" );
+    $("#login").load("login.html");
     $("#info").load("info.html");
     $("#Search").load("search.html")
 </script>

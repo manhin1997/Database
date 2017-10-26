@@ -2,107 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mike's Profile</title>
+    <title>Message</title>
     <!-- Tocas UI：CSS 與元件 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
     <!-- Tocas JS：模塊與 JavaScript 函式 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
+<frameset rows="135,*" frameborder="no" border="0" framespacing="0">
+    <frame src="top.html" name="topFrame" scrolling="no" noresize="noresize" id="topFrame" title="topFrame"/>
+    <frame src="message_main.html" name="mainFrame" id="mainFrame" title="mainFrame"/>
+</frameset>
+<noframes>
+    <body>
+    </body>
+</noframes>
 
-
-<div class="ts narrow container grid">
-    <div class="one wide column">
-        <div class="ts static visible overlapped left sidebar">
-            <div class="ts list">
-                <div class="item">
-                    <img class="ts avatar image" src="profile.png">
-                    <div class="content">
-                        <a class="header">Bella</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="ts avatar image" src="profile.png">
-                    <div class="content">
-                        <a class="header">Ben</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="ts avatar image" src="profile.png">
-                    <div class="content">
-                        <a class="header">Teresa</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="ts avatar image" src="profile.png">
-                    <div class="content">
-                        <a class="header">Brent</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="fifteen wide column">
-        <div class="ts grid">
-            <div class="one column row">
-                <div class=" four wide column">
-                    <div class="ts speeches">
-                        <div class="pointing group">
-                            <div class="speech">
-                                <div class="avatar">
-                                    <img src="profile.png">
-                                </div>
-                                <div class="content">Hello, I am Bella</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="fifteen wide column">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="ts speeches">
-                        <div class="pointing group">
-                            <div class="speech">
-                                <div class="avatar">
-                                    <img src="profile.png">
-                                </div>
-                                <div class="content">Hello, I am Bella</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-</div>
-<div class="ts form">
-    <div class="field">
-        <label>Message:</label>
-        <input type="text">
-    </div>
-    <div class="field">
-        <input type="button" value="Send">
-    </div>
-</div>
-
-</body>
 </html>
