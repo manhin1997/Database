@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <!-- Tocas UI：CSS and metacomponents -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+    <!-- Tocas JS：modules and JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="ts narrow container relaxed grid">
+    <div class="fifteen wide column">
+        <div class="ts vertically padded slate">
+            <div class="ts massive header">
+                Advanced Search
+            </div>
+        </div>
+        <br>
+        <div class="ts form">
+            <div class="fields">
+                <div class="field">
+                    <label>Search Scope</label>
+                    <select>
+                        <option>Natural Science</option>
+                        <option>Art</option>
+                        <option>Geography</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Search type</label>
+                    <select>
+                        <option>Books</option>
+                        <option>Disk</option>
+                    </select>
+                </div>
+            </div>
+            <div class="fields">
+                <div class="field">
+                    <label>Any field</label>
+                    <select>
+                        <option>Author</option>
+                        <option>Title</option>
+                        <option>Scope</option>
+                    </select>
+
+                </div>
+                <div class="field">
+                    <label>contains</label>
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="ts narrow container">
+            <form action="search.php" method="post">
+                <div class="ts input">
+                    <button class="ts positive button"><input type="Submit" value="Search" name="submit"></button>
+                </div>
+            </form>
+
+        </div>
+        <br>
+        Searching
+        <div class="ts indeterminate progress">
+            <div class="bar"></div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
